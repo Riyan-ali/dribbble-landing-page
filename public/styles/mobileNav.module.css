@@ -1,0 +1,45 @@
+.mobile {
+    position: fixed;
+    width: 100%;
+    overflow-y: scroll;
+    z-index: 999;
+}
+
+.main {
+    width: 100%;
+    background-color: white;
+    border-top: 0.5px solid #e5e5e5;
+    padding: 1rem;
+}
+
+.main ul li {
+    margin: 1rem 0;
+    display: flex;
+    align-items: center;
+}
+
+.main ul li svg {
+    width: 0.9rem;
+    height: 0.9rem;
+    margin: 0 0.5rem;
+}
+
+.options {
+    display: block;
+    margin: 0 1rem;
+}
+
+.options hr {
+    width: 100%;
+}
+
+.backdrop {
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+@media (min-width: 1205px) {
+    .mobile {
+        display: none;
+    }
+}
