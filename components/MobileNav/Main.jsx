@@ -29,11 +29,21 @@ const MobileNav = ({menu, setMenu}) => {
     }
   }, [menu])
 
+  const handleExplore = () => {
+    setIsExploreOpen(!isExploreOpen);
+    setIsHireOpen(false)
+  }
+
+  const handleHire = () => {
+    setIsHireOpen(!isHireOpen);
+    setIsExploreOpen(false)
+  }
+
   return (
     <div className={styles.mobile}>
       <div className={styles.main}>
         <ul>
-          <li onClick={() => setIsExploreOpen(!isExploreOpen)}>
+          <li onClick={handleExplore}>
             Explore{!isExploreOpen ? <FaAngleDown /> : <FaAngleUp />}
           </li>
           {isExploreOpen && (
@@ -54,7 +64,7 @@ const MobileNav = ({menu, setMenu}) => {
               </ul>
             </span>
           )}
-          <li onClick={() => setIsHireOpen(!isHireOpen)}>
+          <li onClick={handleHire}>
             Hire a Designer{!isHireOpen ? <FaAngleDown /> : <FaAngleUp />}
           </li>
           {isHireOpen && (

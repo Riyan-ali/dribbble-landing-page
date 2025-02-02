@@ -1,0 +1,113 @@
+.wrapper {
+    display: flex;
+    justify-content: center;
+}
+
+.container {
+    width: 70%;
+    margin: 4rem 0 0 0;
+    max-width: 80rem;
+}
+
+.container h2 {
+    margin: 0 0 1rem 0;
+}
+
+.contact {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.profile {
+    display: flex;
+    align-items: center;
+}
+
+.image {
+    width: 3.7rem;
+    height: 3.5rem;
+    border-radius: 50%;
+    margin: 0 1rem 0 0;
+    border: 0.5px solid rgb(194, 188, 188);
+}
+
+.image img {
+    width: 100%;
+    height: 100%;
+    border-radius: inherit;
+    object-fit: contain;
+}
+
+.info span {
+    margin: 0 0.5rem 0 0;
+}
+
+.info .work {
+    color: #70e000;
+}
+
+.info .follow {
+    color: grey;
+    cursor: pointer;
+}
+
+.info .follow:hover {
+    color: black;
+}
+
+.actions {
+    display: flex;
+    align-items: center;
+}
+
+.actions span {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 0.5rem;
+    padding: 0.5rem;
+    border-radius: 50%;
+    border: 0.01rem solid grey;
+    cursor: pointer;
+}
+
+.actions span:hover {
+    border-color: black;
+}
+
+.actions span svg {
+    width: 1.2rem;
+    height: 1.2rem;
+}
+
+.actions button {
+    background-color: black;
+    color: white;
+    padding: 0.75rem 1.2rem;
+    border-radius: 2rem;
+    margin: 0 1rem;
+    cursor: pointer;
+}
+
+.actions button:hover {
+    background-color: rgb(74, 72, 72);
+}
+
+.extras {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.extras h2 {
+    margin: 2rem 0 0.5rem 0;
+}
+
+.extras div span {
+    margin: 0 0.25rem;
+    font-size: 1.25rem;
+    text-decoration: underline;
+    text-decoration-color: #ff4d6d;
+    text-underline-offset: 0.2rem;
+}
