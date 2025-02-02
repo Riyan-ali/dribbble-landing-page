@@ -88,6 +88,12 @@
     border-radius: 2rem;
     margin: 0 1rem;
     cursor: pointer;
+    display: flex;
+    align-items: center;
+}
+
+.actions .mail {
+    display: none;
 }
 
 .actions button:hover {
@@ -102,6 +108,12 @@
 
 .extras h2 {
     margin: 2rem 0 0.5rem 0;
+    text-align: center;
+}
+
+.extras div {
+    display: flex;
+    justify-content: center;
 }
 
 .extras div span {
@@ -110,4 +122,52 @@
     text-decoration: underline;
     text-decoration-color: #ff4d6d;
     text-underline-offset: 0.2rem;
+    text-align: center;
+}
+
+@media (max-width: 760px) {
+    .actions .mail {
+        display: flex;
+        background-color: black;
+        color: white;
+    }
+
+    .actions .mail:hover {
+        background-color: rgb(74, 72, 72);
+    }
+
+    .actions button {
+        display: none;
+    }
+}
+
+@media (max-width: 630px) {
+    .container {
+        width: 80%;
+    }
+
+    .extras h2 {
+        font-size: 1.1rem;
+    }
+
+    .extras div span {
+        font-size: 1rem;
+    }
+}
+
+@media (max-width: 530px) {
+    .container {
+        width: 90%;
+    }
+}
+
+@media (max-width: 470px) {
+    .contact {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .profile {
+        margin: 0 0 1rem;
+    }
 }

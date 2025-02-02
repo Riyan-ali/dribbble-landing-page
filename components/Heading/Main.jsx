@@ -1,5 +1,6 @@
 import styles from "./main.module.css"
 import { IoMdHeartEmpty } from "react-icons/io";
+import { IoMailOutline } from "react-icons/io5";
 import { CiBookmark } from "react-icons/ci";
 import profileImage from "../../public/images/profile.png"
 
@@ -22,17 +23,14 @@ const Heading = () => {
                     <div className={styles.actions}>
                         <span><IoMdHeartEmpty /></span>
                         <span><CiBookmark /></span>
+                        <span className={styles.mail}><IoMailOutline /></span>
                         <button>Get in touch</button>
                     </div>
                 </div>
                 <div className={styles.extras}>
                     <h2>We're open for new projects! | Bring your ideas to life 👇️️️️️️</h2>
                     <div>
-                    <span>www.riyan.com</span>
-                    <span>|</span>
-                    <span> info@riyan.com</span>
-                    <span>|</span>
-                    <span>Telegram</span>
+                        <span>www.riyan.com | info@riyan.com | Telegram</span>
                     </div>
                 </div>
             </div>

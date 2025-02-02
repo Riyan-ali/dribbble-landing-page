@@ -7,8 +7,7 @@
 
 .frame {
     width: 70%;
-    height: 50rem;
-    border-radius: 1rem;
+    border-radius: 0.5rem;
 }
 
 .frame video {
@@ -16,4 +15,16 @@
     height: 100%;
     object-fit: contain;
     border-radius: inherit;
+}
+
+@media (max-width: 600px) {
+    .frame {
+        width: 80%;
+    }
+}
+
+@media (max-width: 500px) {
+    .frame {
+        width: 90%;
+    }
 }
