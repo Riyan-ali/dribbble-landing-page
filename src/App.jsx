@@ -6,6 +6,7 @@ import Heading from "../components/Heading/Main"
 import VideoFrame from "../components/VideoFrame/Mian"
 import Profile from "../components/Profile/Main"
 import Cards from "../components/Cards/Main"
+import Footer from "../components/Footer/Main"
 
 const App = () => {
 
@@ -19,6 +20,7 @@ const App = () => {
     <VideoFrame />
     <Profile />
     <Cards />
+    <Footer />
     </>
   )
 }

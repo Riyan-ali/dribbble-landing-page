@@ -19,8 +19,6 @@ const Card = ({ data }) => {
         <div className={styles.icons}>
             <span><IoMdHeartEmpty /></span>
             <span><CiBookmark /></span>
-          {/* <IoMdHeartEmpty className={styles.icon} />
-          <CiBookmark className={styles.icon} /> */}
         </div>
       </div>
     </div>

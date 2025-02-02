@@ -1,0 +1,105 @@
+.wrapper {
+    display: flex;
+    justify-content: center;
+    margin: 7rem 0 3rem 0;
+}
+
+.container {
+    width: 80%;
+    max-width: 1440px;
+}
+
+.top {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 0 2rem 0;
+}
+
+.logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 7rem;
+    height: 5rem;
+    margin: 0 0.5rem 0 0;
+}
+
+.logo img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+
+.menus {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.menus span {
+    margin: 0 1rem;
+}
+
+.socials {
+    display: flex;
+    align-items: center;
+    margin: 0 0 0 0.5rem;
+}
+
+.socials span {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 0.5rem;
+}
+
+.socials span svg {
+    width: 1.2rem;
+    height: 1.2rem;
+}
+
+.bottom {
+    display: flex;
+    justify-content: space-between;
+    color: grey;
+}
+
+.terms, .bottomMenu {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 0 0 0.5rem 0;
+}
+
+.terms span, .bottomMenu span {
+    margin: 0 0.5rem;
+}
+
+
+@media (max-width: 1000px) {
+    .menus span{
+        margin: 0 0.5rem;
+    }
+}
+
+@media (max-width: 900px) {
+    .bottom {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .bottom .terms {
+        margin: 0 0 .5rem 0;
+    }
+}
+
+@media (max-width: 800px) {
+    .top {
+        flex-direction: column;
+    }
+
+    .menus {
+        margin: 0 0 1rem 0;
+    }
+}
