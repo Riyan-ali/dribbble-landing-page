@@ -5,6 +5,7 @@ import MobileSearch from "../components/NavBar/MobileSearch"
 import Heading from "../components/Heading/Main"
 import VideoFrame from "../components/VideoFrame/Mian"
 import Profile from "../components/Profile/Main"
+import Cards from "../components/Cards/Main"
 
 const App = () => {
 
@@ -17,6 +18,7 @@ const App = () => {
     <Heading />
     <VideoFrame />
     <Profile />
+    <Cards />
     </>
   )
 }
