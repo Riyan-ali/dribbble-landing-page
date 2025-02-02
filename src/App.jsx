@@ -4,6 +4,7 @@ import styles from "./App.module.css"
 import MobileSearch from "../components/NavBar/MobileSearch"
 import Heading from "../components/Heading/Main"
 import VideoFrame from "../components/VideoFrame/Mian"
+import Profile from "../components/Profile/Main"
 
 const App = () => {
 
@@ -15,6 +16,7 @@ const App = () => {
     <div className={styles.search}><MobileSearch /></div>
     <Heading />
     <VideoFrame />
+    <Profile />
     </>
   )
 }
